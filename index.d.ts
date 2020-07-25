@@ -3,9 +3,10 @@ interface Option {
     origin: RegExp;
     outputName: string;
 }
-export default class RenameModule {
-    options: Option[];
-    constructor(options?: Option | Option[]);
-    apply(compiler: webpack.Compiler): void;
-}
-export {};
+declare const _default: {
+    new (options?: Option | Option[] | undefined): {
+        options: Option[];
+        apply(compiler: webpack.Compiler): void;
+    };
+};
+export = _default;

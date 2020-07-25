@@ -3,7 +3,8 @@ interface Option {
     origin: RegExp
     outputName: string
 }
-export default class RenameModule {
+//这里是用typescript写commonjs导出的写法，如果export default那么commonjs require时需要加default才可以使用。export = 就可以直接使用了
+export = class RenameModule {
     options: Option[] = []
     constructor(options?: Option | Option[]) {
         if (options) {

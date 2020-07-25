@@ -1,6 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class RenameModule {
+module.exports = class RenameModule {
     constructor(options) {
         this.options = [];
         if (options) {
@@ -32,5 +31,4 @@ class RenameModule {
             });
         });
     }
-}
-exports.default = RenameModule;
+};

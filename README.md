@@ -15,7 +15,7 @@ npm i -D webpack-rename-plugin
 ---
 
 ```
-/webpack.config.js
+// webpack.config.js
 
 const WebpackRenamePlugin = require('webpack-rename-plugin')
 
