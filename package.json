@@ -1,0 +1,23 @@
+{
+  "name": "webpack-rename-plugin",
+  "version": "0.0.1",
+  "description": "A plugin on webpack for rename your file what your want diffrent from the output.filename",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "rename",
+    "plugin",
+    "webpack plugin",
+    "rename plugin",
+    "npm",
+    "package"
+  ],
+  "author": "carlos joo",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.0"
+  }
+}
